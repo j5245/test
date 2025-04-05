@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Childrens Products Collection</title>
+    <link rel="stylesheet" href="/css/index.css"/>
+    <link rel="stylesheet" href="/css/shopping.css"/>
+    <script src="/scripts/modal.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="mainh">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="/pictures/MGLlogo.png" alt="Miami Gold Jewelry">
+        </div>
+        
+        <!-- Navigation Links -->
+        <nav>
+            <a href="/html/index.html">Home</a>
+
+            <!-- Dropdown Menu for Jewelry -->
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle">Jewelry</a>
+                <div class="dropdown-content">
+                    <a href="/html/pendants.html">Pendants</a>
+                    <a href="/html/chains.html">Chains</a>
+                    <a href="/html/necklaces.html">Necklaces</a>
+                    <a href="/html/menRings.html">Men Rings</a>
+                    <a href="/html/womenRings.html">Women Rings</a>
+                    <a href="/html/commitmentRings.html"> Commitment Rings</a>
+                    <a href="/html/earrings.html">Earrings/Piercings</a>
+                    <a href="/html/anklets.html">Anklets</a>
+                    <a href="/html/bracelets.html">Bracelets</a>
+                    <a href="/html/childrensProducts.html">Children's Products</a>
+                </div>
+            </div>
+            <a href="#footercontact">Contact Us</a>
+        </nav>
+
+        <!-- Icons Section -->
+    </header>
+
+    
+    <header id="head2">
+        <h1>Children's Collection</h1>
+    </header>
+
+    <div class="products" id="jewelry-list"></div>
+    <script type="module" src="/scripts/firebase.js" defer></script>
+    <script type="module" src="/scripts/childrensProducts.js" defer></script>
+
+
+    <footer id="footercontact">
+        <div class="footer-container">
+            <!-- Contact Information Section -->
+            <div class="contact-info">
+                <div class="contact-item">
+                    <img src="/pictures/gmail2.png" alt="Email Icon">
+                    <div class="contact-text">
+                        <h3>Email Us</h3>
+                        <a href="mailto:Miamigoldjoyeria@gmail.com">Miamigoldjoyeria@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <img src="/pictures/greenphone.png" alt="Phone Icon">
+                    <div class="contact-text">
+                        <h3>Call Us</h3>
+                        <a href="tel:7868363914">786-836-3914</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <img src="/pictures/insta.png" alt="Instagram Icon">
+                    <div class="contact-text">
+                        <h3>Follow Us</h3>
+                        <a href="https://instagram.com/miamigoldjoyeria" target="_blank">@miamigoldjoyeria</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Copyright Section -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 Miami Gold Jewelry. All rights reserved.</p>
+                <p><a href="#" id="openShippingModal">Shipping Policy</a></p>
+            </div>
+        </div>
+    </footer>
+    <div id="shippingModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Shipping Policy</h2>
+          <p>We ship all orders via FedEx, fully certified and insured. Delivery typically takes 2 to 3 business days. A signature is required upon delivery—either from the recipient or another resident at the same address. If no one is available to sign, the package will be held at your nearest FedEx location for pickup.</p>
+          <p>Once your order is shipped, you’ll receive a text with your tracking number and a link to monitor your package online.</p>
+          <p><strong>Note:</strong> We do not guarantee delivery times, as delays may occur due to circumstances beyond our control.</p>
+          <p>We strongly encourage all customers to inspect their packages upon arrival for any signs of damage or tampering.</p>
+        </div>
+    </div>
+</body>
+</html>
